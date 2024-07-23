@@ -94,7 +94,8 @@ public class Main {
 
        //以降にテストコードを追加して検証を行う
 
-
+        com.createRandomHand(); 
+        int result = game.judge(user, com);
 
    }
 
